@@ -1,0 +1,27 @@
+feature,priority,clone,note
+Sign up / sign in / sign out,must,yes,
+Sign out everywhere,should,yes,
+Change password,should,yes,
+Password reset by email,should,no,needs email provider
+Email verification,should,no,needs email provider
+Delete account,must,yes,removes all data
+Profile view and edit,must,yes,
+Experience and skills,should,yes,
+Profile photo upload,should,yes,plus cover photo
+Create / delete post,must,yes,
+Like / unlike,must,yes,
+Comment / delete comment,must,yes,
+Repost,could,yes,plain or with your thoughts
+Post images,should,yes,one photo per post
+Feed pagination,must,yes,
+Connect / accept / ignore / withdraw / remove,must,yes,
+People you may know,should,yes,
+Search people,must,yes,
+Messaging between connections,must,yes,live stream
+Unread badges,should,yes,
+Jobs,could,yes,search filters post apply save applicants
+Notifications page,could,yes,live badge
+Responsive phone layout,must,yes,
+Dark theme,could,yes,follows system setting
+Saved posts,could,yes,
+Single post page,should,yes,shareable link

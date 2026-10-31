@@ -1,0 +1,22 @@
+{
+  "name": "nexora",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Nexora: a professional network app (React + Express + MongoDB).",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm start -w server",
+    "seed": "npm run seed -w server",
+    "test": "npm test -w server",
+    "test:e2e": "node e2e/run.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "playwright": "^1.56.1"
+  }
+}
